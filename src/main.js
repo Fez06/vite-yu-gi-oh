@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import './style.css';
+import './assets/main.scss';
 import "@fontsource/montserrat";
 import App from './App.vue';
 
