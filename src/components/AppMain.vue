@@ -34,6 +34,6 @@ select {
 }
 
 .list-cont {
-    height: 900px;
+    //height: 900px;
 }
 </style>

@@ -24,11 +24,12 @@
 </script>
 
 <template>
-    <div class="d-flex flex-wrap">
+    <div class="list-container d-flex flex-wrap justify-content-between">
         <div class="p-3 bg-black w-100">Found X cards:</div>
-        <div class="card-cont" v-for="(card, i) in dataCards">
+        <div class="card-cont" v-for="(card, index) in dataCards">
             <AppCard :name='card.name'
-                    :image="card.card_images.card.image_url"
+                    :image="card.card_images[0].image_url"
+                    :archetips="card.archetype"
             />
         </div>
         
@@ -36,7 +37,10 @@
 </template>
 
 <style lang="scss" scoped>
+    .list-container {
+
+    }
     .card-cont{
-        width: 20%;
+        width: 17%;
     }
 </style>

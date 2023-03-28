@@ -5,8 +5,8 @@
 </script>
 
 <template>
-    <div class="base m-auto">
-        <h1 class="m-4 bg-white">Yu-Gi-Oh Api</h1>
+    <div class="base mx-auto d-flex">
+        <h1 class="bg-white m-0">Yu-Gi-Oh Api</h1>
     </div>
     
 </template>
@@ -14,5 +14,7 @@
 <style lang="scss" scoped>
     .base{
         width: 78%;
+        height: 60px;
+        align-items: center;
     }
 </style>
