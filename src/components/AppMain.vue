@@ -1,5 +1,12 @@
 <script>
+    import AppListCardsVue from './AppListCards.vue';
 
+    export default {
+        name: 'main',
+        components: {
+            AppListCardsVue
+        }
+    }
 </script>
 
 <template>
@@ -14,6 +21,7 @@
 
             <div class="list-cont p-5 bg-white">
                 <!-- qui ci va il componente lista -->
+                <AppListCardsVue/>
             </div>
         </div>
     </div>
