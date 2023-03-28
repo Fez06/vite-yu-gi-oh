@@ -6,7 +6,7 @@
 
 <template>
     <div class="card">
-        asdd
+        <img src="" alt="img card">
     </div>
     
 </template>
@@ -15,5 +15,9 @@
     .card {
         width: 20%;
         height: 140px;
+
+        img {
+            margin: auto;
+        }
     }
 </style>
