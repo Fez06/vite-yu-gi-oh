@@ -4,6 +4,7 @@
 
     export default {
         name: 'CardList',
+        searchKey: '',
         components: {
             AppCard
         },
@@ -18,6 +19,7 @@
                 console.log(response);
                 this.dataCards = response.data.data;
                 console.log(this.dataCards)
+                this.dataCards = this.dataCards.slice(0,100)
             })
         }
     }
